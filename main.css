@@ -412,7 +412,7 @@ a{
     align-items: center;
     justify-content: center;
     /* background pakai SVG dari Haikei */
-    background: url("wave-haikei.svg") no-repeat bottom center;
+    background: url("SVG/wave-haikei.svg") no-repeat bottom center;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -503,7 +503,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('IMG_3595.JPEG.jpg'); /* path ke file gambar */
+    background-image: url('Image/IMG_3595.JPEG.jpg'); /* path ke file gambar */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
