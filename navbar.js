@@ -38,7 +38,7 @@ if (rotatorText) {
   setInterval(() => {
     index++;
     if (index >= rotatorItems.length) index = 0;
-    const offset = -index * 30; // harus cocok dengan height di .rotator-container
+    const offset = -index * 25; // harus cocok dengan height di .rotator-container
     rotatorText.style.transform = `translateY(${offset}px)`;
   }, 3000); // Ganti teks setiap 3 detik
 }

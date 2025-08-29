@@ -330,42 +330,76 @@ a{
 .halaman-3{
     border: none;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100vh;
+    height: 200vh;
     background-color: var(--accent-color);
+    gap: 15rem;
+}
+
+.based-uniska{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.based-uniska1{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 300px;
+    line-height: 1;
+  
+}
+
+.p1 {
+    color: var(--background-color);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 68px;
+}
+
+.p1 span {
+    color: #f542f2;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 68px;
+}
+
+.p2 {
+    color: #4a89ac;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 68px;
+}
+
+.p2 span {
+    color: #ff5959;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 68px;
 }
 
 
-
-
-.based-uniska{
+.based-uniska2{
     box-sizing: border-box;
     padding: 50px;
     display: flex;
     flex-direction: column;
-    width: 70%;
-    height: 600px;
-    gap: 20px;
-    border-radius: 50px;
-    border: solid  2px var(--background-color);
+    width: 45%;
+    height: 300px;
+    gap: 1rem;
 }
 
-.based-uniska span{
-    font-family: "Figtree", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 44px;
-    background: linear-gradient(15deg, #2f2f30 3.84%, white 87.33%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
-.based-uniska p{
+.based-uniska2 p{
     color: #98999a;
     font-family: "Figtree", sans-serif;
     font-optical-sizing: auto;
@@ -374,30 +408,39 @@ a{
     line-height: 1.4;  
 }
 
-.based-uniska-founder{
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    padding: 15px 25px;
-    background-color: var(--background-color);
-    border-radius: 20px;
+.based-uniska2 a{
+    color: #ff5959;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
 }
 
-.based-uniska-founder p{
-    color: var(--accent-color);
-    font-family: "Urbanist", sans-serif;
-    font-optical-sizing: auto;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.4; 
-    text-align: justify; 
+.based-uniska3{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 300px;
+    line-height: 1;
+  
 }
-.based-uniska-founder a{
-    color: var(--secondary-color);
-    text-decoration: none;
-    font-family: "Urbanist", sans-serif;
+
+.based-uniska4{
+    box-sizing: border-box;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 300px;
+    gap: 1rem;
+}
+
+.based-uniska4 p{
+    color: #98999a;
+    font-family: "Figtree", sans-serif;
     font-optical-sizing: auto;
-    font-size: 16px;
+    font-style: normal;
+    font-size: 18px;
     line-height: 1.4;  
 }
 
@@ -439,13 +482,15 @@ a{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .container-slogan-2-since{
+    
     border-radius: 20px;
     border: 1px solid white;
     width: 300px;
-    height: 30px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -457,7 +502,7 @@ a{
     font-weight: 500;
     font-size: 14px;
     color: white;
-    margin-bottom: -1rem;
+    
 }
 
 .static-text{
@@ -469,7 +514,7 @@ a{
 }
 .rotator-container{
     gap: 0.5em;
-    height: 30px;
+    height: 25px;
     overflow: hidden;
     position: relative;
     display: inline-block;
@@ -488,7 +533,7 @@ a{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     background: linear-gradient(135deg, #00f2fe, #4facfe);
     background-clip: text;
     -webkit-background-clip: text;
