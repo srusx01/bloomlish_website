@@ -3,7 +3,7 @@
 :root {
   --primary-color: #342223;
   --secondary-color: #e2424a;
-  --accent-color: #2f2f30;
+  --accent-color: #1c1c1c;
   --background-color: #f3e8df;
   --ivory : #f8f6f5;
 
@@ -343,16 +343,17 @@ a{
     width: 100%;
     display: flex;
     justify-content: center;
+    gap: 4rem;
 }
 
 .based-uniska1{
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 45%;
     height: 300px;
     line-height: 1;
-  
 }
 
 .p1 {
@@ -380,7 +381,7 @@ a{
 }
 
 .p2 span {
-    color: #ff5959;
+    color: #e2424a;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -390,10 +391,10 @@ a{
 
 .based-uniska2{
     box-sizing: border-box;
-    padding: 50px;
+    padding: 50px 0;
     display: flex;
     flex-direction: column;
-    width: 45%;
+    width: 40%;
     height: 300px;
     gap: 1rem;
 }
@@ -407,12 +408,41 @@ a{
     font-size: 18px;
     line-height: 1.4;  
 }
+.btn-see-our-solider{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    color: var(--background-color);
+    transition: all 0.3s ease-in-out;
+}
 
-.based-uniska2 a{
-    color: #ff5959;
+.btn-see-our-solider:hover{
+    cursor: pointer;
+    color: #e2424a;
+}
+.btn-see-our-solider div{
     font-family: "Bebas Neue", sans-serif;
     font-weight: 700;
-    font-size: 30px;
+    font-style: normal;
+    font-size: 40px;
+    color: var(--background-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-see-our-solider:hover div{
+    color: #e2424a;
+}
+
+.btn-see-our-solider svg{
+    fill: currentColor;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-see-our-solider:hover svg{
+    transform: translateX(15px);
 }
 
 .based-uniska3{
