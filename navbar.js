@@ -84,3 +84,26 @@ if (rotatorText) {
   if (cards.length) setInterval(() => rotate(1), 4000);
 
   applyPositions();
+
+  // Animasi Foto-foto Mahasiswa
+  const toggleBtn = document.getElementById('toggleBtn');
+  const hiddenPhotos = document.querySelectorAll('.photo.hidden');
+  let expanded = false;
+
+  if (toggleBtn && hiddenPhotos.length > 0) {
+    toggleBtn.addEventListener("click", () => {
+      if (!expanded) {
+        hiddenPhotos.forEach(photo => {
+          photo.classList.remove("hidden");
+        });
+        toggleBtn.textContent = "Show Less";
+        expanded = true;
+      } else {
+        hiddenPhotos.forEach(photo => {
+          photo.classList.add("hidden");
+        });
+        toggleBtn.textContent = "Show More";
+        expanded = false;
+      }
+    });
+  }
